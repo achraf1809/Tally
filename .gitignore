@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.netlify/
+.env
+.env.*
+!.env.example
+.agent-wallet.local.json
+.reviewer-wallets.local.json
+server/data/db.json
+server/data/db.json.tmp

@@ -1,0 +1,32 @@
+{
+  "network": "BOT Chain Testnet",
+  "chainId": 968,
+  "rpc": "https://rpc.bohr.life",
+  "explorer": "https://scan.bohr.life",
+  "contract": "BountyEscrow",
+  "address": "0x349Ab37142bA7E2b4D28e86D0624f0d2268A4801",
+  "deploymentTx": "0xc97b4571e85367ac1a36a4fc8715601b00e827cb1ae5a9624b0fa0ba3d7dbbf8",
+  "deploymentBlock": 20515957,
+  "features": [
+    "escrowed rewards",
+    "evidence-hash submissions",
+    "requester-approved payout",
+    "expired-bounty refund"
+  ],
+  "smokeTest": {
+    "awardFlow": {
+      "bountyId": "0",
+      "createTx": "0x3b74429293b1e930c004bb4b99e6cf61a1f17f7ee6987013c7e929bb01ab0fc3",
+      "submissionTx": "0x9740b79d69a4b12ffda2ed9fbaf47eddbca6a7e445ef4f7664f6d3ba27521c62",
+      "awardTx": "0xab085dd0a596dd57f8534bd530b70bb98633a15ff08f3be7bdb79a77a89d998e",
+      "finalState": "AWARDED"
+    },
+    "expiredRefundFlow": {
+      "bountyId": "1",
+      "createTx": "0xd324a83a87bf949df3a40e360e5c131af627c1bb1b52eb590cef662bf471770b",
+      "submissionTx": "0xec9be488b850e9d7a9fa98d65a279c0acde08d1fb17da0d89b22a840bc7e8fbb",
+      "refundTx": "0x1751b20d7e26fb22a99300ec6deeb1f5a738d0548394de98be9cbdd38bbc5a27",
+      "finalState": "CANCELLED"
+    }
+  }
+}

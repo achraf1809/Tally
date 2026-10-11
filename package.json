@@ -1,0 +1,31 @@
+{
+  "name": "tally",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "api": "node server/index.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "contract:compile": "node scripts/compile-contract.mjs",
+    "contract:compile:reviewer": "node scripts/compile-reviewer-contract.mjs",
+    "contract:test:reviewer": "node scripts/test-reviewer-escrow.mjs",
+    "contract:deploy:reviewer": "node scripts/deploy-reviewer-escrow.mjs"
+  },
+  "dependencies": {
+    "@netlify/database": "^2.0.0",
+    "ethers": "^6.17.0",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "ganache": "^7.9.2",
+    "solc": "^0.8.36",
+    "vite": "latest"
+  },
+  "overrides": {
+    "tmp": "^0.2.7"
+  }
+}

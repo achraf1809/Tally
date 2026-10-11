@@ -1,0 +1,13 @@
+{
+  "contract": "ReviewerEscrow",
+  "address": "0x8D9fF4279692381F7ae0F74B3D8AAe94336426de",
+  "chainId": 677,
+  "network": "BOT Chain Mainnet",
+  "rpcUrl": "https://rpc.botchain.ai",
+  "explorerUrl": "https://scan.botchain.ai/address/0x8D9fF4279692381F7ae0F74B3D8AAe94336426de",
+  "deploymentTx": "0x5baee567aea33c8410fd8cfcb4859f1c86f8a3edb683b7416d5258652b4304d5",
+  "deployer": "0x226a07a2AB8fea932D0EDD7988836B1488F13Ddf",
+  "primaryReviewer": "0xAB5D225febe94e0117B05f7F377E694eF9e2e43f",
+  "backupReviewer": "0x8e0674ABC8315D5B70D4c91d287Baea2380fA1E0",
+  "reviewWindowSeconds": 172800
+}

@@ -1,0 +1,13 @@
+{
+  "contract": "ReviewerEscrow",
+  "address": "0x69EB316b3Aff3Fec49Be48D24A6ea304a9B94C9e",
+  "chainId": 968,
+  "network": "BOT Chain Testnet",
+  "rpcUrl": "https://rpc.bohr.life",
+  "explorerUrl": "https://scan.bohr.life/address/0x69EB316b3Aff3Fec49Be48D24A6ea304a9B94C9e",
+  "deploymentTx": "0x6e4e5e601c8f1933aeffc0592210b139a858680a0c27e927158994108f47f4ae",
+  "deployer": "0x226a07a2AB8fea932D0EDD7988836B1488F13Ddf",
+  "primaryReviewer": "0xAB5D225febe94e0117B05f7F377E694eF9e2e43f",
+  "backupReviewer": "0x8e0674ABC8315D5B70D4c91d287Baea2380fA1E0",
+  "reviewWindowSeconds": 172800
+}
